@@ -1,0 +1,2 @@
+scp -P 334  pi@70.173.104.208:/var/www/html/index.html ~/desktop
+

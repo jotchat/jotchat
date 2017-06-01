@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<style>
+form {
+    border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #121240;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 100px) {
+    span.psw {
+       display: block;
+       float: center;
+    }
+    .cancelbtn {
+       width: 80%;
+    }
+}
+</style>
+<body>
+
+<h2>Login Form</h2>
+
+<form action="/action_page.php">
+  <div class="imgcontainer">
+    <img src="reb.jpg" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+    <input type="checkbox" checked="checked"> Remember me
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+
+<style>
+.parallax {
+    /* The image used */
+    background-image: url("https://i.redd.it/t6odkj5afuzy.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+
+<body>
+
+<p>Scroll Up and Down this page to see the parallax scrolling effect.</p>
+
+<div class="parallax2"></div>
+
+<div style="height:30px;background-color:red;font-size:20px">
+Tip: Try to remove the background-attachment property to remove the scrolling effect.
+</div>
+
+<div class="parallax"></div>
+<div style="height:50px;background-color:green;font-size:36px">
+Testing something out; seeing if multiple images works
+</div>
+
+<style>
+.parallax2 {
+background-image: url("https://s-media-cache-ak0.pinimg.com/736x/5e/b2/6d/5eb26dd6f7d966bad92a08c042d89cba.jpg");
+
+min-height: 500px;
+
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover;
+}
+</style>
+
+<div class="parallax2"></div>
+
+<div style="height:300px;background-color:blue;font-size:36px;">
+TESTING
+</div>
+
+</body>
+
+</body>
+</html>
